@@ -12,7 +12,7 @@ body {
     
     .info {
         width: 100%;
-        padding: 6% 100px;
+        padding: 4% 100px;
     }
     
     h1 {
@@ -35,12 +35,23 @@ body {
         padding: 15px 25px;
         color: #FFFFFF;
         cursor: pointer;
+        margin-bottom: 30px;
+    }
+
+    .requisites {
+        line-height: 40px;
     }
     
     img {
         width: 620px;
         max-height: 100vh;
-    }    
+    } 
+
+    .legal-entity {
+        background-color: #d4c6c0;
+        padding: 4% 100px;
+        padding-right: 40%;
+    }
 }
 
 @media only screen and (max-device-width: 767px) {
@@ -77,6 +88,15 @@ body {
         cursor: pointer;
         margin-top: 4%;
         margin-bottom: 8%;
+    }
+
+    .legal-entity {
+        background-color: #d4c6c0;
+        padding: 4% 100px;
+    }
+
+    .requisites {
+        line-height: 80px;
     }
     
     img {
