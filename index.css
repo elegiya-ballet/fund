@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+@media only screen and (min-device-width: 768px) {
+    .content {
+        display: flex;
+    }
+    
+    .info {
+        width: 100%;
+        padding: 6% 100px;
+    }
+    
+    h1 {
+        font-size: 32px;
+        font-weight: normal;
+        margin-bottom: 40px
+    }
+    
+    p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    
+    button {
+        font-size: 18px;
+        font-weight: 600;
+        background: #AE9F99;
+        border-radius: 40px;
+        border: 0;
+        padding: 15px 25px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    img {
+        width: 620px;
+        max-height: 100vh;
+    }    
+}
+
+@media only screen and (max-device-width: 767px) {
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+        width: inherit;
+    }
+    
+    .info {
+        text-align: center;
+        padding: 4%;
+    }
+    
+    h1 {
+        font-size: 36px;
+        font-weight: normal;
+        margin-bottom: 40px
+    }
+    
+    p {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    
+    button {
+        font-family: 'Nunito', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        background: #AE9F99;
+        border-radius: 40px;
+        border: 0;
+        padding: 3%;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    img {
+        content:url("logo_mobile.jpg");
+        width: auto;
+    }
+}
